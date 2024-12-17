@@ -1,7 +1,5 @@
 # go-ethereum learn
 
-参考地址：https://goethereumbook.org/en/
-
 ## 下载
 
 ```bash
@@ -25,3 +23,10 @@ make run
 
 ### 智能合约
 
+## 事件日志
+
+- 订阅事件log
+
+## References
+
+- https://goethereumbook.org/en/

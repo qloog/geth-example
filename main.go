@@ -5,6 +5,8 @@ import (
 	"log"
 
 	"github.com/ethereum/go-ethereum/ethclient"
+
+	"github.com/qloog/geth-example/event"
 )
 
 var client *ethclient.Client
@@ -27,5 +29,18 @@ func main() {
 
 	// TransferToken()
 
-	SubscribeBlock()
+	// SubscribeBlock()
+
+	// smart contract
+	// contract.LoadContract()
+	// contract.ReadContract()
+	// contract.WriteContract()
+	// contract.DeployContract()
+
+	// erc20 token
+	// contract.ReadContactERC20()
+
+	// event
+	event.SubscribeEvent()
+
 }

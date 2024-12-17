@@ -46,7 +46,7 @@ func ReadContactERC20() {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("name: %s\n", name)         // "name: Golem Network"
+	fmt.Printf("name: %s\n", name)         // "name: Golem Network Token"
 	fmt.Printf("symbol: %s\n", symbol)     // "symbol: GNT"
 	fmt.Printf("decimals: %v\n", decimals) // "decimals: 18"
 
