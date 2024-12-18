@@ -15,31 +15,31 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-// LogFill ...
+// LogFill 表示在交易所中订单被填充时触发的事件日志
 type LogFill struct {
-	Maker                  common.Address
-	Taker                  common.Address
-	FeeRecipient           common.Address
-	MakerToken             common.Address
-	TakerToken             common.Address
-	FilledMakerTokenAmount *big.Int
-	FilledTakerTokenAmount *big.Int
-	PaidMakerFee           *big.Int
-	PaidTakerFee           *big.Int
-	Tokens                 [32]byte
-	OrderHash              [32]byte
+	Maker                  common.Address // Maker 地址，表示创建订单的一方
+	Taker                  common.Address // Taker 地址，表示执行订单的一方
+	FeeRecipient           common.Address // 费用接收者的地址
+	MakerToken             common.Address // Maker 提供的代币地址
+	TakerToken             common.Address // Taker 提供的代币地址
+	FilledMakerTokenAmount *big.Int       // 填充的 Maker 代币数量
+	FilledTakerTokenAmount *big.Int       // 填充的 Taker 代币数量
+	PaidMakerFee           *big.Int       // Maker 支付的手续费
+	PaidTakerFee           *big.Int       // Taker 支付的手续费
+	Tokens                 [32]byte       // 附加数据或元数据（通常未使用或保留）
+	OrderHash              [32]byte       // 订单的哈希值，作为订单的唯一标识
 }
 
-// LogCancel ...
+// LogCancel 表示在交易所中订单被取消时触发的事件日志
 type LogCancel struct {
-	Maker                     common.Address
-	FeeRecipient              common.Address
-	MakerToken                common.Address
-	TakerToken                common.Address
-	CancelledMakerTokenAmount *big.Int
-	CancelledTakerTokenAmount *big.Int
-	Tokens                    [32]byte
-	OrderHash                 [32]byte
+	Maker                     common.Address // Maker 地址，表示创建订单的一方
+	FeeRecipient              common.Address // 费用接收者的地址
+	MakerToken                common.Address // Maker 提供的代币地址
+	TakerToken                common.Address // Taker 提供的代币地址
+	CancelledMakerTokenAmount *big.Int       // 被取消的 Maker 代币数量
+	CancelledTakerTokenAmount *big.Int       // 被取消的 Taker 代币数量
+	Tokens                    [32]byte       // 附加数据或元数据（通常未使用或保留）
+	OrderHash                 [32]byte       // 订单的哈希值，作为订单的唯一标识
 }
 
 // LogError ...
