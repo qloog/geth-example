@@ -6,7 +6,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/qloog/geth-example/event"
+	"github.com/qloog/geth-example/signature"
 )
 
 var client *ethclient.Client
@@ -44,6 +44,9 @@ func main() {
 	// event.SubscribeEvent()
 	// event.ReadEvent()
 	// event.ReadERC20Event()
-	event.Read0xprotocolEvent()
+	// event.Read0xprotocolEvent()
+
+	// singature
+	signature.GenerateSignature()
 
 }
