@@ -83,8 +83,9 @@ func Address() {
 
 	// check if address is an Account or a Smart Contract
 	// 0x Protocol Token (ZRX) smart contract address
-	address2 := common.HexToAddress("0xe41d2489571d322189246dafa5ebde1f4699f498")
-	bytecode, err := client.CodeAt(context.Background(), address2, nil) // nil is latest block
+	// 将 十六进制字符串 转换为以太坊的地址
+	ethAddress2 := common.HexToAddress("0xe41d2489571d322189246dafa5ebde1f4699f498")
+	bytecode, err := client.CodeAt(context.Background(), ethAddress2, nil) // nil is latest block
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -93,8 +94,8 @@ func Address() {
 	fmt.Printf("is contract: %v\n", isContract) // is contract: true
 
 	// a random user account address
-	address3 := common.HexToAddress("0x8e215d06ea7ec1fdb4fc5fd21768f4b34ee92ef4")
-	bytecode, err = client.CodeAt(context.Background(), address3, nil) // nil is latest block
+	ethAddress3 := common.HexToAddress("0x8e215d06ea7ec1fdb4fc5fd21768f4b34ee92ef4")
+	bytecode, err = client.CodeAt(context.Background(), ethAddress3, nil) // nil is latest block
 	if err != nil {
 		log.Fatal(err)
 	}

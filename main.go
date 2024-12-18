@@ -41,6 +41,9 @@ func main() {
 	// contract.ReadContactERC20()
 
 	// event
-	event.SubscribeEvent()
+	// event.SubscribeEvent()
+	// event.ReadEvent()
+	// event.ReadERC20Event()
+	event.Read0xprotocolEvent()
 
 }

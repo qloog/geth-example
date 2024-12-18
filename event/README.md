@@ -8,3 +8,17 @@ Event log 是被存储在 transaction receipts 里。
 
 ## 订阅日志事件
 
+## 读取事件日志
+
+## 读取ERC20 Token事件日志
+
+## 读取 0x 协议事件日志
+
+定义智能合约 `exchange.sol`
+
+生成go文件
+
+```bash
+solc --abi Exchange.sol -o build
+abigen --abi="build/Exchange.abi" --pkg=event --out=exchange.go
+```

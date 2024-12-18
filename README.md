@@ -25,7 +25,10 @@ make run
 
 ## 事件日志
 
-- 订阅事件log
+- 订阅事件日志
+- 读取事件日志
+- 读取ERC20 Token事件日志
+- 读取 0x 协议事件日志
 
 ## References
 
