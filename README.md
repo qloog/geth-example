@@ -1,4 +1,6 @@
-# go-ethereum learn
+# go-ethereum example
+
+该项目是 `go-ethereum` 的学习笔记，包括 `go-ethereum` 的基本用法，如何和链上进行交互，包括交易，智能合约，事件日志，签名等
 
 ## 下载
 
@@ -38,3 +40,4 @@ make run
 ## References
 
 - https://goethereumbook.org/en/
+- https://github.com/ethereum/go-ethereum
