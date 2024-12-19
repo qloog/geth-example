@@ -5,8 +5,7 @@ import (
 	"log"
 
 	"github.com/ethereum/go-ethereum/ethclient"
-
-	"github.com/qloog/geth-example/signature"
+	"github.com/qloog/geth-example/test"
 )
 
 var client *ethclient.Client
@@ -47,6 +46,8 @@ func main() {
 	// event.Read0xprotocolEvent()
 
 	// singature
-	signature.GenerateSignature()
+	// signature.GenerateSignature()
 
+	// test
+	test.SimulateClient()
 }

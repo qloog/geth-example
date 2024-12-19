@@ -37,6 +37,16 @@ make run
 - 生成签名
 - 验证签名
 
+### 测试
+
+本地模拟client进行测试，比如：进行交易测试
+
+## Swarm
+
+- 配置 Swarm
+- 上传文件到 Swarm
+- 从 Swarm 下载文件
+
 ## References
 
 - https://goethereumbook.org/en/
