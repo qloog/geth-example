@@ -41,7 +41,7 @@ make run
 
 本地模拟client进行测试，比如：进行交易测试
 
-## Swarm
+### Swarm
 
 - 配置 Swarm
 - 上传文件到 Swarm
