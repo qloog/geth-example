@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/qloog/geth-example/test"
+	"github.com/qloog/geth-example/account"
 )
 
 var client *ethclient.Client
@@ -22,7 +22,11 @@ func init() {
 
 func main() {
 
-	// Address()
+	// account
+	// account.GetAccountBalance()
+	// account.GenKeystore()
+	// account.ImportKeystore()
+	account.CheckAccount()
 
 	// Transaction()
 
@@ -49,5 +53,5 @@ func main() {
 	// signature.GenerateSignature()
 
 	// test
-	test.SimulateClient()
+	// test.SimulateClient()
 }

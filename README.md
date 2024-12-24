@@ -19,6 +19,10 @@ make run
 
 ## 主体内容
 
+## 客户端
+
+- Ganache
+
 ### 账户
 
 ### 交易
@@ -53,3 +57,5 @@ make run
 - 面向 Go 开发者的以太坊: https://ethereum.org/zh/developers/docs/programming-languages/golang/
 - 以太坊技术与实现: https://learnblockchain.cn/books/geth/
 - https://github.com/ethereum/go-ethereum
+- http://truffleframework.com/ganache/
+- Ethereum HD Wallet derivations in Go: https://github.com/miguelmota/go-ethereum-hdwallet
