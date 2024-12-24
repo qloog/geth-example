@@ -49,5 +49,7 @@ make run
 
 ## References
 
-- https://goethereumbook.org/en/
+- Ethereum Development with Go: https://goethereumbook.org/en/
+- 面向 Go 开发者的以太坊: https://ethereum.org/zh/developers/docs/programming-languages/golang/
+- 以太坊技术与实现: https://learnblockchain.cn/books/geth/
 - https://github.com/ethereum/go-ethereum

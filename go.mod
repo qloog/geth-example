@@ -4,6 +4,7 @@ go 1.22.8
 
 require (
 	github.com/ethereum/go-ethereum v1.14.12
+	github.com/shopspring/decimal v1.4.0
 	golang.org/x/crypto v0.22.0
 )
 
