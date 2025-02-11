@@ -59,3 +59,4 @@ make run
 - https://github.com/ethereum/go-ethereum
 - http://truffleframework.com/ganache/
 - Ethereum HD Wallet derivations in Go: https://github.com/miguelmota/go-ethereum-hdwallet
+- https://github.com/Luboy23/foundry_advanced_turtorial
